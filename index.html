@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./Images/menu.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/font-awesome.all.min.css" />
+    <link rel="stylesheet" href="./CSS/Style.css" />
+    <title>Restaurant Menu</title>
+  </head>
+  <body>
+    <noscript
+      >Your browser don't support JavaScript.JavaScript is required for this
+      website to function properly.</noscript
+    >
+    <header>
+      <h1 class="mx-auto mt-5">Our Menu</h1>
+      <div class="underline"></div>
+    </header>
+    <div
+      class="btn-group"
+      id="btnsContainer"
+      role="group"
+      aria-label="Basic radio toggle button group"
+    >
+      <div class="Mybutton">
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="All"
+          autocomplete="off"
+          checked
+        />
+        <label class="btn btn-outline-warning" for="All">All</label>
+      </div>
+      <div class="Mybutton">
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="Breakfast"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-warning" for="Breakfast">Breakfast</label>
+      </div>
+      <div class="Mybutton">
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="Lunch"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-warning" for="Lunch">Lunch</label>
+      </div>
+      <div class="Mybutton">
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="Shakes"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-warning" for="Shakes">Shakes</label>
+      </div>
+      <div class="Mybutton">
+        <input
+          type="radio"
+          class="btn-check"
+          name="btnradio"
+          id="Dinner"
+          autocomplete="off"
+        />
+        <label class="btn btn-outline-warning" for="Dinner">Dinner</label>
+      </div>
+    </div>
+    <div class="container mt-5">
+      <div class="row row-cols-1 row-cols-md-2 g-4" id="menuContainer"></div>
+    </div>
+    <script src="./JS/bootstrap.min.js"></script>
+    <script src="./JS/font-awesome.all.min.js"></script>
+    <script src="./JS/App.js"></script>
+  </body>
+</html>
